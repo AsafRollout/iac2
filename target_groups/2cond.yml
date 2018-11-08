@@ -1,0 +1,11 @@
+type: target-group
+name: 2cond
+conditions:
+  - operator: regex
+    property: rox.platform
+    operand: s*
+  - operator: in-array
+    property: rox.platform
+    operand:
+      - a
+      - b
