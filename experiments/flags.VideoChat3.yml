@@ -9,4 +9,4 @@ platforms:
       - option: true
         percentage: 80
         from: 2018-10-18T00:00:00.000Z
-value: true
+value: false
