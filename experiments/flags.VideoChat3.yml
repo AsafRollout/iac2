@@ -3,6 +3,7 @@
 flag: flags.VideoChat3
 type: experiment
 name: video chat 3
+archived: true
 platforms:
   - name: Go
     value:
