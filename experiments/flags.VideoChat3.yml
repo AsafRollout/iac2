@@ -7,5 +7,5 @@ platforms:
   - name: Go
     value:
       - option: true
-        percentage: 90
+        percentage: 80
         from: 2018-10-18T00:00:00.000Z
