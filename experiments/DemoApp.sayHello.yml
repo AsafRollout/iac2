@@ -6,13 +6,16 @@ labels: lbl1
 flag: DemoApp.sayHello
 conditions:
   - property:
-      operator: is-undefined
+      operator: eq
+      operand: 123
       name: prop2
-    value: false
-  - property:
-      operator: is-undefined
-      name: proppp
-    version:
+  - version:
       operator: semver-gte
       semver: 3.0.1
+    property:
+      operator: is-false
+      name: proppp
+    value:
+      - percentage: 50
+        option: true
 value: true
