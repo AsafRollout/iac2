@@ -1,0 +1,10 @@
+type: target-group
+name: t
+operator: or
+conditions:
+  - operator: gt
+    property: prop2
+    operand: 5
+  - operator: lt
+    property: newProp2
+    operand: 3
