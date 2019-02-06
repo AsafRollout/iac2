@@ -6,15 +6,16 @@ labels: lbl1
 flag: DemoApp.sayHello
 conditions:
   - property:
+      name: prop2
       operator: eq
       operand: 123
-      name: prop2
   - version:
       operator: semver-gte
       semver: 3.0.1
     property:
-      operator: is-true
       name: prop2
+      operator: lt
+      operand: 3
     value:
       - percentage: 50
         option: true
