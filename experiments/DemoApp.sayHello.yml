@@ -4,4 +4,7 @@ type: experiment
 name: say hello
 labels: lbl1
 flag: DemoApp.sayHello
-value: true
+conditions:
+  - group:
+      name: t
+value: false
