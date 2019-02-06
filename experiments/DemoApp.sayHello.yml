@@ -5,6 +5,8 @@ name: say hello
 labels: lbl1
 flag: DemoApp.sayHello
 conditions:
-  - group:
-      name: t
+  - property:
+      operator: lt
+      operand: 3
+      name: prop2
 value: false
