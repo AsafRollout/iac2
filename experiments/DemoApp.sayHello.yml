@@ -13,8 +13,8 @@ conditions:
       operator: semver-gte
       semver: 3.0.1
     property:
-      operator: is-false
-      name: proppp
+      operator: is-true
+      name: prop2
     value:
       - percentage: 50
         option: true
