@@ -6,9 +6,8 @@ labels: lbl1
 flag: DemoApp.sayHello
 conditions:
   - property:
-      name: prop2
-      operator: eq
-      operand: 123
+      name: proppp
+      operator: is-false
   - version:
       operator: semver-gte
       semver: 3.0.1
