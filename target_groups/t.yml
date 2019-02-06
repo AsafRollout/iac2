@@ -7,4 +7,4 @@ conditions:
     operand: 5
   - operator: lt
     property: newProp2
-    operand: 3
+    operand: 4
