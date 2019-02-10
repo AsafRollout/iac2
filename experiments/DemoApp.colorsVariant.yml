@@ -6,6 +6,8 @@ flag: DemoApp.colorsVariant
 availableValues:
   - blue
   - green
-  - red
   - purple
+  - red
+  - ya
+  - yee
 value: []
