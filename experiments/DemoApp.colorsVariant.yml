@@ -1,0 +1,10 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5c601e54734a1b2846228a4e
+type: experiment
+name: colors variant
+flag: DemoApp.colorsVariant
+availableValues:
+  - red
+  - green
+  - blue
+value: []
