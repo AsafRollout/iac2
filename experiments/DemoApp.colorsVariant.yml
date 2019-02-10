@@ -4,7 +4,8 @@ type: experiment
 name: colors variant
 flag: DemoApp.colorsVariant
 availableValues:
-  - red
-  - green
   - blue
+  - green
+  - red
+  - purple
 value: []
