@@ -5,17 +5,7 @@ name: say hello
 labels: lbl1
 flag: DemoApp.sayHello
 conditions:
-  - property:
-      name: proppp
-      operator: is-false
-  - version:
-      operator: semver-gte
-      semver: 3.0.1
-    property:
-      name: prop2
-      operator: lt
-      operand: 3
-    value:
-      - percentage: 70
+  - value:
+      - percentage: 50
         option: true
 value: true
