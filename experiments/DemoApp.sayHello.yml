@@ -6,6 +6,6 @@ labels: lbl1
 flag: DemoApp.sayHello
 conditions:
   - value:
-      - percentage: 11
+      - percentage: 70
         option: true
 value: true
