@@ -5,7 +5,10 @@ name: say hello
 labels: lbl1
 flag: DemoApp.sayHello
 conditions:
-  - value:
+  - version:
+      operator: semver-eq
+      semver: '0.0'
+    value:
       - percentage: 70
         option: true
 value: true
