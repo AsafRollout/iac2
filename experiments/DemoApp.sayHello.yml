@@ -9,6 +9,6 @@ conditions:
       operator: semver-eq
       semver: '2'
     value:
-      - percentage: 49
+      - percentage: 70
         option: true
 value: true
