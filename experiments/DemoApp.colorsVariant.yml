@@ -14,19 +14,7 @@ conditions:
   - version:
       operator: semver-eq
       semver: '2'
-    value:
-      - percentage: 17
-        option: blue
-      - percentage: 17
-        option: green
-      - percentage: 17
-        option: purple
-      - percentage: 17
-        option: red
-      - percentage: 17
-        option: ya
-      - percentage: 15
-        option: yee
+    value: green
 value:
   - percentage: 17
     option: blue
