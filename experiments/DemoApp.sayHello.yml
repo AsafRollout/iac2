@@ -7,8 +7,8 @@ flag: DemoApp.sayHello
 conditions:
   - version:
       operator: semver-eq
-      semver: '0.0'
+      semver: '2'
     value:
-      - percentage: 49.4999
+      - percentage: 49
         option: true
 value: true
