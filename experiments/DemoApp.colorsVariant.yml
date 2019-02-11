@@ -10,6 +10,11 @@ availableValues:
   - red
   - ya
   - yee
+conditions:
+  - version:
+      operator: semver-eq
+      semver: '0.0'
+    value: []
 value:
   - percentage: 17
     option: blue
