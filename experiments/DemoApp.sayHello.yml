@@ -9,6 +9,10 @@ conditions:
       operator: semver-eq
       semver: '0.0'
     value:
-      - percentage: 70
+      - from: 2019-02-11T13:39:56.436Z
+        percentage: 30
+        option: true
+      - from: 2019-02-26T00:00:00.000Z
+        percentage: 80
         option: true
 value: true
