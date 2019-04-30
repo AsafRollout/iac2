@@ -5,7 +5,7 @@ operator: or
 conditions:
   - operator: gt
     property: prop2
-    operand: 7
+    operand: 9
   - operator: lt
     property: newProp2
-    operand: 8
+    operand: 10
