@@ -1,6 +1,6 @@
 type: target-group
 name: t
-description: totot
+description: popop
 operator: or
 conditions:
   - operator: gt
