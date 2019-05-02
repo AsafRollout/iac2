@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5cc9cda5b363762cfb052ffa
+type: experiment
+name: say hello
+flag: DemoApp.sayHello
+value: false
