@@ -1,0 +1,11 @@
+type: target-group
+name: t
+description: popop
+operator: or
+conditions:
+  - operator: gt
+    property: prop2
+    operand: 12
+  - operator: lt
+    property: newProp2
+    operand: 11
