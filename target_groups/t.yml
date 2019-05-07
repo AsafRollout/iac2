@@ -3,6 +3,11 @@ name: t
 description: popop
 operator: or
 conditions:
+  - operator: lte
+    property: prop2
+    operand: 5
+  - operator: is-undefined
+    property: asdf
   - operator: gt
     property: prop2
     operand: 12
