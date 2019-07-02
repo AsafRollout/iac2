@@ -24,7 +24,7 @@ conditions:
     value: ya
   - property:
       name: proppp
-      operator: is-true
+      operator: is-false
     value: red
   - property:
       name: newProp2
@@ -48,7 +48,7 @@ conditions:
     value:
       - percentage: 50
         option: blue
-      - percentage: 50
+      - percentage: 40
         option: green
   - property:
       name: rox.platform
