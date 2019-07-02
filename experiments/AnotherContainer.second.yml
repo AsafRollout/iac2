@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5d1b8da1d4b642331bb3d487
+type: experiment
+name: second
+flag: AnotherContainer.second
+value: false
