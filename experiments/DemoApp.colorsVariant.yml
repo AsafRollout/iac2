@@ -11,20 +11,62 @@ availableValues:
   - ya
   - yee
 conditions:
+  - property:
+      name: newProp2
+      operator: gt
+      operand: 0
+    value: []
+  - property:
+      name: rox.platform
+      operator: in-array
+      operand:
+        - val
+    value: ya
+  - property:
+      name: proppp
+      operator: is-true
+    value: red
+  - property:
+      name: newProp2
+      operator: eq
+      operand: 0
+    value: red
+  - property:
+      name: newProp2
+      operator: ne
+      operand: 6
+    value: green
+  - property:
+      name: asdf
+      operator: ne
+      operand: asdf
+    value: blue
+  - property:
+      name: rox.language
+      operator: regex
+      operand: a*b
+    value:
+      - percentage: 50
+        option: blue
+      - percentage: 50
+        option: green
+  - property:
+      name: rox.platform
+      operator: in-array
+      operand:
+        - ios
+        - android
+    value: []
+  - property:
+      name: zxcv/?
+      operator: is-undefined
+    value: blue
   - version:
       operator: semver-eq
       semver: '2'
+    property:
+      name: newProp2
+      operator: gt
+      operand: 0
     value: green
-value:
-  - percentage: 17
-    option: blue
-  - percentage: 17
-    option: green
-  - percentage: 17
-    option: purple
-  - percentage: 17
-    option: red
-  - percentage: 17
-    option: ya
-  - percentage: 15
-    option: yee
+value: purple
