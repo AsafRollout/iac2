@@ -3,11 +3,15 @@ name: t
 description: popop
 operator: or
 conditions:
-  - operator: lte
-    property: prop2
-    operand: 5
-  - operator: is-undefined
+  - operator: regex
+    property: rox.platform
+    operand: b*
+  - operator: in-array
     property: asdf
+    operand:
+      - '1'
+      - '2'
+      - '3'
   - operator: gt
     property: prop2
     operand: 12
