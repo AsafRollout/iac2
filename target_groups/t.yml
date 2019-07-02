@@ -17,4 +17,4 @@ conditions:
     operand: 12
   - operator: lt
     property: newProp2
-    operand: 11
+    operand: 0
